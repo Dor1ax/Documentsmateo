@@ -7,6 +7,27 @@
     <title>Document</title>
 </head>
 <body>
+    <nav>
+        <div class="fixed-menu">
+            <h1 class="logo">DK</h1>
+            <div class="nav-links">
+                <a href="nav-link" href="#main">Главная</a>
+                <a href="nav-link" href="#about">Обо мне</a>
+                <a href="nav-link" href="#skills">Навыки</a>
+                <a href="nav-link" href="#works">Работы</a>
+                <a href="nav-link" href="#comments">Отзывы</a>
+            </div>
+            <div class="nav-links">
+                <a class="nav-link main-link acitve" href="#main"></a>
+                <a class="nav-link main-link acitve" href="#about"></a>
+                <a class="nav-link skills-link" href="#skills"></a>
+                <a class="nav-link works-link" href="#works"></a>
+                <a class="nav-link comments-link" href="#comments"></a>
+            </div>
+        </div>
+    </nav>
+
+
     <section id="main">
         <div class="main-block">
             <img src="img/maskot.png" width="125">
@@ -22,12 +43,9 @@
                 <a href="#">Подробнее</a>
             </div>
         </div>
-        
 
             <div class="moving-planet">
               </div>
-            
-        
       </section>
 
       <section id="about">
@@ -47,7 +65,7 @@
                     </div>
                 </div>
                 <div class="about-card">
-                    <img src="img/photo1.png">
+                    <img src="img/Моё фото.jpg" width="150 " height="180">
                     <p>Где живу: Ленинск-Кузнецкий</p>
                     <p>Возраст: 13</p>
                     <p>Дата рождения: 2011</p>
@@ -56,25 +74,77 @@
             <div class="moving-cloud"></div>
     </section>
 
-<section id="skills">
-    <div class="skills-block">
-    </div>
-</section>
+    <section id="skills">
+        <h1 class="title">НАВЫКИ</h1>
+        <div class="skills-block">
+            <div class="skills-card">
+                <p> ЭТОТ САЙТ Я СДЕЛАЛ
+                    В РАМКАХ ОБУЧЕНИЯ ШКОЛЫ
+                    ROCKET TECH SCHOOL
+                </p>
+                <div class="languages">
+                    <img src="img/html.png" width="70">
+                    <img src="img/css.png" width="70">
+                    <img src="img/js.png" width="70">
+                </div>
+                <div class="button">
+                    <a href="#">Смотреть работы</a>
+                </div>
+            </div>
+        </div>
+    </section>
 
 <section id="works">
+    <h1 class="works-title">МОИ РАБОТЫ</h1>
     <div class="works-block">
+        <img src="img/На Марсе классно.png" width="750">
+        <img src="img/Моя работа.png" width="750"
     </div>
 </section>
 
-<section id="">
+<section id="comments">
+    <h1 class="title">ОТЗЫВЫ</h1>
     <div class="comments-block">
+        <div class="comment-card">
+            <img src="img/photo1.png">
+            <h3>Владимир</h3>
+            <p>Основатель Rocket Tech School</p>
+        </div>
+        <div class="comment">
+            <p>
+                Эта девочка проходила обучение 
+                веб разработке 4 месяца, 
+                и уже создает сложные сайты!
+            </p>
+        </div>
+        <div class="comment-card">
+            <img src="img/photo2.png">
+            <h3>Диана</h3>
+            <p>Product Lead Rocket Tech School</p>
+        </div>
+        <div class="comment">
+            <p>
+                Очень хорошо пишет код. 
+                Отличная оптимизация сайта. 
+                Современно, стильно, молодежно!
+            </p>
+        </div>
     </div>
 </section>
 
-
-       
-
-
+<footer>
+    <div class="footer-info">
+        <p>МАТВЕЙ ЛИХАЧЕВ</p>
+        <p>Личный сайт веб разработчика</p>
+    </div>
+    <div class="footer-year">
+        <p>© 2024</p>
+    </div>
+    <div class="footer-links">
+        <a href="https://vk.com/id503030062" target="_blank"> <img src="img/vk.png" width="50"> </a>
+        <a href="https://t.me/matvey_mur" target="_blank">  <img src="img/telegram.png" width="50"> </a>
+    </div>
+ </footer>
 
     <script src="main.js"></script>
 </body>
